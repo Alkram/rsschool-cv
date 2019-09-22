@@ -1,0 +1,41 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	font-size: 20px;
+    line-height: 1.5;
+
+}
+a{
+	text-decoration: none;
+	color: blue;
+	margin-bottom: 15px;
+}
+a:hover{
+	color: red;
+	border-bottom: 2px solid red;
+}
+img{
+	width: 100%;
+	height: auto;
+}
+.container{
+	max-width: 1024px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.bigger{
+	font-size: 40px;
+	font-weight: bold;
+}
+.title{
+	font-weight: bold;
+	margin-top: 20px;
+}
+.container-photo{
+	display: flex;
+	width: 200px;
+	height: 150px;
+}
